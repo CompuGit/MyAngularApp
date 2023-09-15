@@ -1,0 +1,59 @@
+<style>
+.logo_title{
+    background-image: url('../../../assets/toucan_title.png');
+    background-size: contain;
+    height:60px;
+    width: 190px;
+    position: relative;
+    left: 30px;
+}
+.bg{
+    background-image: url('../../../assets/bg.jpeg');
+    background-size: cover;
+}
+.bg_transaction{
+    background-image: url('../../../assets/transaction.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+</style>
+
+<div>
+    <header class="bg-white shadow d-flex">
+        <div class="logo_title"></div>
+        <div class="ms-auto d-flex">
+            <button class="btn btn-light px-5">Portfolio</button>
+            <button class="btn btn-light px-5">About Us</button>
+            <button class="btn btn-light px-5">Contact Us</button>
+        </div>
+    </header>
+
+    <div class="bg p-5">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex flex-column text-white p-4">
+                    <div class="mt-3 fs-4">Automation</div>
+                    <div class="display-3 mb-4">A Modern Approach to Payments</div>
+                    <p class="small mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, doloremque nisi
+                         animi modi voluptates similique aliquam? Molestias dolore quam, incidunt, quisquam, ex
+                          natus neque necessitatibus in sapiente dolorum quod quos.</p>
+                    
+                    <div class="mt-5 mb-3 d-flex">
+                        <a class="btn btn-warning w-100 m-1" routerLink="/login">Login</a>
+                        <a class="btn btn-warning w-100 m-1" routerLink="/register">Register</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="h-100 bg_transaction"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-3 p-4 text-center w-50 mx-auto">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis in voluptas vel voluptate 
+        repellendus hic necessitatibus dolores nam? Laboriosam dolorem tempora debitis animi et sequi 
+        quos explicabo quae! Quos, ad.
+    </div>
+</div>
