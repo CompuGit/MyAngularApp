@@ -9,6 +9,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { VCardComponent } from './components/v-card/v-card.component';
 import { MainOpsComponent } from './components/main-ops/main-ops.component';
+import { TransactionComponent } from './components/transaction/transaction.component';
+import { ThankyouComponent } from './pages/thankyou/thankyou.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { MainOpsComponent } from './components/main-ops/main-ops.component';
     HomeComponent,
     DashboardComponent,
     VCardComponent,
-    MainOpsComponent
+    MainOpsComponent,
+    TransactionComponent,
+    ThankyouComponent
   ],
   imports: [
     BrowserModule,
